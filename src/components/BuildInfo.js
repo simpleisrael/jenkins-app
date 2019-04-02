@@ -1,6 +1,6 @@
 import React from 'react';
 
-const buildInfo = require('../../build-info.json');
+const buildInfo = require('../build-info.json');
 
 const BuildInfo = () => (
     <div style={{padding: '20px'}}>
