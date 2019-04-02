@@ -7,15 +7,15 @@ const BuildInfo = () => (
         <div style={{fontWeight: 'bold'}}>
             Build Date
         </div>
-        <div style={{float: 'right'}}>
+        <h4>
             {buildInfo &&  buildInfo['build_date']}
-        </div>
+        </h4>
         <div style={{fontWeight: 'bold'}}>
             Build Version
         </div>
-        <div style={{float: 'right'}}>
+        <h4>
             {buildInfo &&  buildInfo['build_version']}
-        </div>
+        </h4>
     </div>
 );
 
